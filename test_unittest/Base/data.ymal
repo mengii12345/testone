@@ -1,0 +1,10 @@
+- arg = fun(self,*args,**kwargs)
+                    case_data = {}
+                    case_data['case_name'] = logname
+                    case_data['case_create'] = "ls"
+                    # case_data['case_author'] = "zs"
+                    case_data['case_desc'] = "测试搜索"
+                    case_data['test_result'] = True
+                    case_data['filepath'] = __file__
+                    case_data['start_time'] = time.time()
+                    case_data['start_time_str'] = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(case_data['start_time']))

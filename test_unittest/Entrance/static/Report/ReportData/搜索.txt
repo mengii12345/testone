@@ -1,0 +1,11 @@
+{
+  "case_name": "搜索",
+  "case_create": "mwf",
+  "case_desc": "搜索测试",
+  "test_result": true,
+  "filepath": "G:\\test_unittest\\test_unittest\\TestCase\\Login_test.py",
+  "start_time": 1677429916.1230683,
+  "start_time_str": "2023-02-27 00:45:16",
+  "htmlpath": "http://192.168.1.102:5000/static/Report/搜索.html",
+  "run_time": 0.1
+}

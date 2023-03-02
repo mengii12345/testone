@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试结果汇总</title>
+    <style>
+        .fail {
+            color: red;
+			width: 10em;
+			text-align: center;
+        }
+        .success {
+            color: green;
+			width: 10em;
+			text-align: center;
+        }
+		.details-col-elapsed {
+			width: 10em;
+			text-align: center;
+		}
+		.details-col-msg {
+			width: 10em;
+			text-align: center;
+			background-color:#66ffcc;
+		}
+
+    </style>
+</head>
+<body>
+<div>
+    <br>
+    <br>
+    <table border="thin" cellspacing="0" cellpadding="5" width="95%" align="center">
+        <tr colspan="4" bgcolor="#ffe4c4" style="font-size: 30px">
+            <td colspan="5" align="center">自动化测试报告</td>
+        </tr>
+        <tr align="center" style="font-size: 20px">
+            <td width="15%">执行总数：2</td>
+            <td width="15%">成功个数: 2</td>
+            <td width="15%">失败个数: 0</td>
+            <td width="20%">执行成功率: 100.0%</td>
+            <td width="35%">合计耗时: 0.2s</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table  border="thin" cellspacing="0" cellpadding="3"  width="95%" style="margin: auto;">
+        <tr class="" >
+            <th class='details-col-msg'>case中文名称</th>
+            <th class='details-col-msg'>case描述</th>
+            <th class='details-col-msg'>case创建人</th>
+            <th class='details-col-msg'>执行结果</th>
+            <th class='details-col-msg'>开始时间</th>
+            <th class='details-col-msg'>执行时间</th>
+            <th class='details-col-msg'>详细信息</th>
+<!--            <th class='details-col-msg'>作者</th>-->
+            <th class='details-col-msg'>文件路径</th>
+        </tr>
+         
+        <tr >
+            <td class='details-col-elapsed'>搜索</td>
+            <td class='details-col-elapsed'>搜索测试</td>
+            <td class='details-col-elapsed'>mwf</td>
+            <td class="success">成功 </td>
+            <td class='details-col-elapsed'>2023-02-27 00:45:16</td>
+            <td class='details-col-elapsed'>0.1s</td>
+            <td class='details-col-elapsed'><a href="http://192.168.1.102:5000/static/Report/搜索.html" target="view_window">详细信息</a></td>
+<!--            <td class='details-col-elapsed'></td>-->
+            <td class='details-col-elapsed'>G:\test_unittest\test_unittest\TestCase\Login_test.py</td>
+        </tr>
+         
+        <tr >
+            <td class='details-col-elapsed'>登录</td>
+            <td class='details-col-elapsed'>登录测试</td>
+            <td class='details-col-elapsed'>mwf</td>
+            <td class="success">成功 </td>
+            <td class='details-col-elapsed'>2023-02-27 00:44:58</td>
+            <td class='details-col-elapsed'>0.1s</td>
+            <td class='details-col-elapsed'><a href="http://192.168.1.102:5000/static/Report/登录.html" target="view_window">详细信息</a></td>
+<!--            <td class='details-col-elapsed'></td>-->
+            <td class='details-col-elapsed'>G:\test_unittest\test_unittest\TestCase\Login_test.py</td>
+        </tr>
+        
+
+    </table>
+</div>
+</body>
+</html>
